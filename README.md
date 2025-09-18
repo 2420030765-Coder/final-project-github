@@ -14,3 +14,9 @@ It shows how to set up a repository with required files and practice collaborati
 1. Clone the repository:
    ```bash
    git clone https://github.com/2420030765-Coder/final-project-github.git
+2. Navigate into the repository:
+   ```bash
+   cd final-project-github
+3. Run the script:
+   ```bash
+   bash simple-interest.sh
