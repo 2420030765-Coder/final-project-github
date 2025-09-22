@@ -20,3 +20,21 @@ It shows how to set up a repository with required files and practice collaborati
 3. Run the script:
    ```bash
    bash simple-interest.sh
+   
+## How to Make Changes and Practice Git Workflow
+
+1. Create a new branch for your changes:
+   ```bash
+   git checkout -b bug-fix-typo
+2. Edit a file (like README.md) and save your changes.
+3. Stage and commit the change:
+   ```bash
+   git add README.md
+   git commit -m "Fixed typo in README.md"
+4. Merge the branch into main:
+   ```bash
+   git checkout main
+   git merge bug-fix-typo
+5. Push the changes to GitHub:
+   ```bash
+   git push origin main
